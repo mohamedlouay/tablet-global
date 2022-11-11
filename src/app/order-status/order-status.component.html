@@ -1,0 +1,55 @@
+<div class="container-sm bg-light" *ngIf="timeToBeReady">
+
+
+    <mat-card>
+      <mat-card-content>
+        <h2 class="example-h2">Order Progress</h2>
+
+
+        <div class="row row-cols-3 align-items-center">
+          <div class="col-1">
+            <img src="data:image/png;base64,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">
+
+          </div>
+
+          <div class="col-9 ">
+
+            <section class="example-section">
+              <mat-progress-bar
+                class="example-margin"
+                [color]="color"
+                [mode]="mode"
+                [value]="value">
+              </mat-progress-bar>
+              <div class="text-center">
+                <countdown  #cd [config]="this.CountdownConfig" (event)="handleEvent($event)"></countdown>
+
+              </div>
+
+            </section>
+          </div>
+
+          <div class="col-1">
+
+            <img src="data:image/png;base64,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">
+
+
+          </div>
+        </div>
+
+      </mat-card-content>
+    </mat-card>
+
+
+
+  <mat-card class="game">
+    <mat-card-content>
+        <img src="https://img.freepik.com/free-vector/games-time-neon-text-with-gamepad_1262-15457.jpg?w=1000"/>
+    </mat-card-content>
+  </mat-card>
+
+
+</div>
+
+
+
