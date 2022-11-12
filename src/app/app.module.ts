@@ -10,14 +10,14 @@ import {MatCardModule} from "@angular/material/card";
 import {CountdownModule} from "ngx-countdown";
 import { BlackComponent } from './black/black.component';
 import {HttpClientModule} from "@angular/common/http";
-import { PaymentComponent } from './payment/payment.component';
+import { PaymentGlobalComponent } from './payment-global/payment-global.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     OrderStatusComponent,
     BlackComponent,
-    PaymentComponent,
+    PaymentGlobalComponent,
   ],
   imports: [
     BrowserModule,
