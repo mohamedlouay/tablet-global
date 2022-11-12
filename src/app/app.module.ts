@@ -11,6 +11,7 @@ import {CountdownModule} from "ngx-countdown";
 import { BlackComponent } from './black/black.component';
 import {HttpClientModule} from "@angular/common/http";
 import { PaymentGlobalComponent } from './payment-global/payment-global.component';
+import { PaymentIndividualComponent } from './payment-individual/payment-individual.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { PaymentGlobalComponent } from './payment-global/payment-global.componen
     OrderStatusComponent,
     BlackComponent,
     PaymentGlobalComponent,
+    PaymentIndividualComponent,
   ],
   imports: [
     BrowserModule,
